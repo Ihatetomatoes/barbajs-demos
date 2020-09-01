@@ -5,6 +5,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    opacity: 1;
 }
 
 .transition {
@@ -17,8 +18,45 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 800ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
     > div {
         font-size: 40px;
         color: #fff;
     }
 }
+
+.barba-leave-active,
+.barba-enter-active {
+    transition: transform 800ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.barba-leave-active .transition,
+.barba-enter-active .transition {
+    transition: transform 800ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.barba-leave .transition,
+.barba-enter-to .transition {
+    transform: translateY(0%);
+}
+
+.barba-enter .transition,
+.barba-leave-to .transition {
+    transform: translateY(-100%);
+}
+
+// .barba-leave-active,
+// .barba-enter-active {
+//   transition: opacity 450ms ease;
+// }
+
+// .barba-leave,
+// .barba-enter-to {
+//   opacity: 1;
+// }
+
+// .barba-enter,
+// .barba-leave-to {
+//   opacity: 0;
+// }

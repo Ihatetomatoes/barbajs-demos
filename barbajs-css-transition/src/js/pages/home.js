@@ -2,7 +2,7 @@ class Home {
 	namespace = 'home';
 
 	beforeEnter = data => {
-		console.log(data);
+		console.log(data, 'on home page');
 	};
 }
 
