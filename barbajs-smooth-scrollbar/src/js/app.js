@@ -13,7 +13,6 @@ function pageTransitionIn({container}) {
     // console.log('pageTransitionIn');
     // timeline to stretch the loader over the whole screen
 	const h1 = container.querySelector('h1');
-	console.log(h1);
     const tween = gsap.to(h1, { duration: 3, autoAlpha: 0 });
     return tween;
 }
