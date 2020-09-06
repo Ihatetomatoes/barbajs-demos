@@ -1,5 +1,9 @@
 # Barbajs Demos
-A collection of Barba.js demos based on the [barba-starter-template by Samuel Berisha](https://github.com/mrsamse/barba-starter-template).
+A collection of demos explaining the most frequent use cases for [Barba.js](https://barba.js.org/).
+
+## Barba.js and CSS transitions
+
+![Barba.js and CSS Plugin](/assets/barba-css-demo.gif)
 
 ## WIP
 
@@ -10,6 +14,8 @@ A collection of Barba.js demos based on the [barba-starter-template by Samuel Be
 - ImagesLoaded - TODO
 
 ## How to use
+The starting point of each demo is a cleaned up [barba-starter-template by Samuel Berisha](https://github.com/mrsamse/barba-starter-template).
+
 1. Open demo folder in VSCode
 2. Install dependencies - `yarn install` or `npm install`
 3. To watch JS and CSS changes run `npm run dev`
