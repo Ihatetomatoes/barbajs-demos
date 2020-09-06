@@ -1,18 +1,38 @@
 import '../css/app.scss';
 import barba from '@barba/core';
 import barbaCss from '@barba/css';
-import Home from './pages/home';
-import About from './pages/about';
 
 // tell Barba to use the css plugin
 barba.use(barbaCss);
 
+const body = document.querySelector('body');
+
+barba.hooks.before((data) => {
+	const background = data.current.container.dataset.background;
+	body.style.setProperty("--page-background", background);
+});
+
 barba.init({
-	debug: true,
-	views: [Home, About],
-	transitions: [{
-		once: () => {},
-		leave: () => {},
-		enter: () => {}
-	}]
+	transitions: [
+		{
+			name: "home",
+			sync: true,
+			to: { namespace: ['home'] },
+			once() {},
+			leave() {},
+			enter() {}
+		},
+		{
+			name: "fade",
+			to: { namespace: ['fade'] },
+			leave() {},
+			enter() {}
+		},
+		{
+			name: "with-cover",
+			to: { namespace: ['with-cover'] },
+			leave() {},
+			enter() {}
+		}
+	]
 });
