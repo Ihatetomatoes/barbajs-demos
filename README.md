@@ -5,10 +5,15 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ![Barba.js and CSS Plugin](/assets/barba-css-demo.gif)
 
+## Barba.js and GreenSock
+
+![Barba.js and GreenSock](/assets/barba-with-gsap.gif)
+
 ## WIP
 
-- CSS Demo - Barba team to check the code
-- Simple GSAP - in progress
+- CSS Demo - Done
+- Simple GSAP - Barba team to check the code
+- With WordPress - TODO
 - Smooth ScrollBar - TODO
 - Locomotive Scroll - TODO
 - ImagesLoaded - TODO
