@@ -13,9 +13,9 @@ const animationLeaveMask = (container) => {
 	});
 	tl
 		.to(activeLink, {xPercent: 101}, 0)
-		.to(projects, { xPercent: 100, stagger: 0.05 }, 0)
+		.to(projects, { xPercent: 101, stagger: 0.05 }, 0)
 		.to(images, { 
-			xPercent: -100,
+			xPercent: -101,
 			stagger: 0.05,
 		}, 0);
 	return tl;
