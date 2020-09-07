@@ -1,6 +1,7 @@
 @import '../../node_modules/reset-css/reset.css';
 @import './home.scss';
 @import './fade.scss';
+@import './clip.scss';
 @import './with-cover.scss';
 :root {
     --easing: cubic-bezier(0.5, 0.7, 0.4, 1);
@@ -41,8 +42,8 @@ header {
         margin-bottom: 5.375vh;
     }
     a {
-        font-size: 1.52vw;
-        padding: 24px 32px;
+        font-size: 2.22vw;
+        padding: 24px 2vw;
         display: inline-block;
         text-align: center;
         color: var(--base-color);
@@ -52,7 +53,8 @@ header {
     }
     &.is-home {background-color: #5C85EE;}
     &.is-fade {background-color: #CC98C6;}
-    &.is-cover {background-color: #161636;}
+    &.is-clip {background-color: #161636;}
+    &.is-cover {background-color: #E66F7F;}
 }
 .content {
     transition: all 0.3s ease-out;

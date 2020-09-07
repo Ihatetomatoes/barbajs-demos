@@ -29,6 +29,13 @@ barba.init({
 			enter() {}
 		},
 		{
+			name: "clip",
+			sync: true,
+			to: { namespace: ['clip'] },
+			leave() {},
+			enter() {}
+		},
+		{
 			name: "with-cover",
 			to: { namespace: ['with-cover'] },
 			leave() {},
