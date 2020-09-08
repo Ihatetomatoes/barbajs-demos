@@ -1,5 +1,7 @@
 # Barba.js with GreenSock and Locomotive Scroll
 
+![Barba.js and Locomotive Scroll](../assets/img_barba-js-gsap-locomotive.png)
+
 Simple JavaScript page transitions using [Barba.js](https://barba.js.org/) and [GreenSock](https://greensock.com/?ref=7856eb) with [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll).
 
 ## Build

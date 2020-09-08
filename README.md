@@ -3,11 +3,23 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ## Barba.js and CSS transitions
 
+![Barba.js and CSS](/assets/img_barba-js-css.png)
+
 ![Barba.js and CSS Plugin](/assets/barba-css-demo.gif)
 
 ## Barba.js and GreenSock
 
+![Barba.js and GSAP](/assets/img_barba-js-gsap.png)
+
 ![Barba.js and GreenSock](/assets/barba-with-gsap.gif)
+
+## Barba.js and Smooth ScrollBar
+
+![Barba.js and Smooth ScrollBar](/assets/img_barba-js-gsap-smooth-scrollbar.png)
+
+## Barba.js and Locomotive Scroll
+
+![Barba.js and Smooth ScrollBar](/assets/img_barba-js-gsap-locomotive.png)
 
 ## WIP
 

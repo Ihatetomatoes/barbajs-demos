@@ -1,5 +1,7 @@
 # Barba.js with GreenSock
 
+![Barba.js and GSAP](../assets/img_barba-js-gsap.png)
+
 JavaScript page transitions using [Barba.js](https://barba.js.org/) and [GreenSock](https://greensock.com/?ref=7856eb).
 
 ## Build

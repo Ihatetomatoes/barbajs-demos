@@ -1,5 +1,7 @@
 # Barba.js with GreenSock and Smooth Scrollbar
 
+![Barba.js and Smooth Scrollbar](../assets/img_barba-js-gsap-smooth-scrollbar.png)
+
 Simple JavaScript page transitions using [Barba.js](https://barba.js.org/) and [GreenSock](https://greensock.com/?ref=7856eb) with [Smooth Scrollbar](https://idiotwu.github.io/smooth-scrollbar/).
 
 ## Build
