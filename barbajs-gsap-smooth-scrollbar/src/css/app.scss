@@ -1,0 +1,147 @@
+@import '../../node_modules/reset-css/reset.css';
+:root {
+    --easing: cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+body {
+    --page-background: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: var(--page-background);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* =Smooth ScrollBar container */
+#viewport {
+    overflow: hidden; 
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* =Layout */
+.wrapper {
+    // Gsap will fade this in - fadeIn.js
+    visibility: hidden;
+}
+main {
+    padding: 0 20vw 200px 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        overflow: hidden;
+    }
+    .project,
+    .hero {
+        padding: 2vh 2vw;
+        .image {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        img {
+            object-fit: cover;
+            object-position: 50% 50%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .project01 .image { padding-bottom: 103.723404255%; }
+    .project02 .image { padding-bottom: 63.29787234%; }
+    .project03 .image { padding-bottom: 107.446808511%; }
+    .project04 .image { padding-bottom: 112.201591512%; }
+    .project05 .image { padding-bottom: 151.063829787%; }
+    .project06 .image { padding-bottom: 105.291005291%; }
+}
+
+header {
+    text-align: center;
+    margin: 50px 15vw;
+    overflow: hidden;
+    a {
+        color: #202020;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 5px 0 8px 0;
+        margin: 0 8px;
+        text-decoration: none;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        &::after,
+        &.is-active span {
+            display: block;
+            content: ' ';
+            background-color: #e8e8e8;
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+        }
+        &.is-active {
+            span {
+                background-color: #202020;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+main .hero {
+    max-width: 650px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    .image {
+        padding-bottom: 56.25%;
+        margin-bottom: 4vh;
+        position: relative;
+    }
+    h1 {
+        font-size: 4vw;
+        margin-bottom: 2vh;
+        color: #fff;
+        z-index: 2;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+    }
+    p {
+        line-height: 1.4;
+        max-width: 80%;
+        margin-bottom: 1em;
+    }    
+}
+.content {
+    position: relative;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+/* One col */
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 0 0 50px 0;
+    }
+    main .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    header a {
+        font-size: 16px;
+    }
+}
