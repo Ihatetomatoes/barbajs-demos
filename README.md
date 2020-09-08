@@ -14,7 +14,7 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 - CSS Demo - Done
 - Simple GSAP - Barba team to check the code
 - Smooth ScrollBar - Barba team to check the code
-- Locomotive Scroll - TODO
+- Locomotive Scroll - Barba team to check the code
 - With WordPress - TODO
 - ImagesLoaded - TODO
 
