@@ -25,6 +25,8 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ![Barba.js and Images Loaded](/assets/img_barba-js-gsap-images-loaded.png)
 
+![Barba.js and GreenSock](/assets/barba-with-imagesLoaded.gif)
+
 ## WIP
 
 - CSS Demo - Done
