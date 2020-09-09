@@ -13,9 +13,9 @@ const leaveToProject = (container) => {
 	});
 	tl
 		.to(navLinks, { yPercent: 100, stagger: 0.05}, 0)
-		.to(projects, { xPercent: 100, stagger: 0.05 }, 0)
-		.to(images, { 
-			xPercent: -100,
+		.to(projects, { xPercent: 101, stagger: 0.05 }, 0)
+		.to(images, {
+			xPercent: -101,
 			stagger: 0.05,
 		}, 0);
 	return tl;
