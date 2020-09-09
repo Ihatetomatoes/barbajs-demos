@@ -21,14 +21,18 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ![Barba.js and Smooth ScrollBar](/assets/img_barba-js-gsap-locomotive.png)
 
+## Barba.js and Images Loaded
+
+![Barba.js and Images Loaded](/assets/img_barba-js-gsap-images-loaded.png)
+
 ## WIP
 
 - CSS Demo - Done
 - Simple GSAP - Barba team to check the code
 - Smooth ScrollBar - Barba team to check the code
 - Locomotive Scroll - Barba team to check the code
+- ImagesLoaded - Barba team to check the code
 - With WordPress - TODO
-- ImagesLoaded - TODO
 
 ## How to use
 The starting point of each demo is a cleaned up [barba-starter-template by Samuel Berisha](https://github.com/mrsamse/barba-starter-template).
