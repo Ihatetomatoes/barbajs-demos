@@ -2,7 +2,7 @@
 
 ![Barba.js and CSS](../assets/img_barba-js-css.png)
 
-Simple css page transitions using [Barba.js](https://barba.js.org/) and 
+Simple css page transitions using [Barba.js](https://barba.js.org/) and
 the [@barba/css](https://barba.js.org/docs/plugins/css/) plugin.
 
 ## Build
