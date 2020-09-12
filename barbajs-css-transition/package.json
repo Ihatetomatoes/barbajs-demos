@@ -4,7 +4,7 @@
   "description": "A simple starter template for setting up a ECMAScript 6 project with barba.js and webpack.",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "license": "MIT",
@@ -29,7 +29,8 @@
     "terser-webpack-plugin": "^4.2.0",
     "url-loader": "^2.2.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@barba/core": "^2.8.0",

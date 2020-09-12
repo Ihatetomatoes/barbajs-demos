@@ -9,7 +9,6 @@ module.exports = (env, argv) => ({
   devtool: 'source-map',
   entry: './src/js/app.js',
   output: {
-    publicPath: './dist/',
     filename: 'js/bundle.js',
     chunkFilename: 'js/[name].js',
     path: path.resolve(__dirname, 'dist'),
@@ -17,16 +16,7 @@ module.exports = (env, argv) => ({
   optimization: {
     usedExports: true,
     minimizer: [
-      new TerserPlugin({
-        extractComments: false,
-        terserOptions: {
-          mangle: {
-            properties: {
-              regex: /^_/,
-            },
-          },
-        },
-      }),
+      new TerserPlugin(),
       new OptimizeCSSAssetsPlugin({}),
     ],
   },
@@ -78,4 +68,14 @@ module.exports = (env, argv) => ({
     }),
     new CleanWebpackPlugin(),
   ],
+  devServer: {
+    contentBase: [
+      path.join(__dirname, '/src/view'),
+      path.join(__dirname, '/dist'),
+    ],
+    watchContentBase: true,
+    compress: true,
+    port: 9000,
+    open: true,
+  },
 });
