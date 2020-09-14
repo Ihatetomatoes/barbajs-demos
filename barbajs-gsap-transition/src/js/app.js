@@ -1,7 +1,6 @@
-import '../css/app.scss';
 import barba from '@barba/core';
 import Home from './pages/home';
-import About from './pages/about';
+import About from './pages/detail-page';
 import gsap from 'gsap';
 import { revealProject, leaveToProject, leaveFromProject, animationEnterMask, animationLeaveMask } from './animations';
 
@@ -17,7 +16,7 @@ barba.hooks.enter(() => {
 
 barba.init({
 	debug: true,
-	// views: [Home, About],
+	views: [Home, About],
 	transitions: [
 		{
 			name: 'general-transition',
@@ -67,5 +66,5 @@ barba.init({
 				animationEnterMask(next.container);
 			}
 		} 
-]
+	]
 });

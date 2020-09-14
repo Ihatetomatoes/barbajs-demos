@@ -4,7 +4,7 @@
   "description": "A simple starter template for setting up a ECMAScript 6 project with barba.js and webpack.",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "license": "MIT",
@@ -14,30 +14,28 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.7.1",
     "autoprefixer": "^9.7.1",
-    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.2.0",
-    "eslint": "^6.6.0",
-    "eslint-config-problems": "^3.0.1",
-    "eslint-plugin-prettier": "^3.1.1",
-    "mini-css-extract-plugin": "^0.8.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.9.0",
+    "mini-css-extract-plugin": "^0.11.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss-loader": "^3.0.0",
-    "prettier": "^1.19.1",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^4.0.1",
     "sass": "^1.23.6",
-    "sass-loader": "^8.0.0",
-    "stylelint": "^12.0.0",
-    "stylelint-config-recommended-scss": "^4.0.0",
-    "stylelint-scss": "^3.12.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "url-loader": "^2.2.0",
+    "sass-loader": "^10.0.2",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0",
+    "terser-webpack-plugin": "^4.2.0",
+    "url-loader": "^4.1.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@barba/core": "^2.8.0",
-    "reset-css": "^5.0.1",
-    "gsap": "^3.5.1"
+    "gsap": "^3.5.1",
+    "reset-css": "^5.0.1"
   }
 }
