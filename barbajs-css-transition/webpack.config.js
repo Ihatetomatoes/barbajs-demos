@@ -8,6 +8,7 @@ module.exports = (env, argv) => ({
   mode: argv.mode,
   devtool: 'source-map',
   entry: './src/js/app.js',
+  devtool: argv.mode === 'development' ? 'source-map' : false,
   output: {
     filename: 'js/bundle.js',
     chunkFilename: 'js/[name].js',
@@ -33,14 +34,10 @@ module.exports = (env, argv) => ({
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              sourceMap: argv.mode === 'development',
-            },
           }, {
             loader: 'css-loader',
             options: {
               url: false,
-              sourceMap: argv.mode === 'development',
             },
           }, {
             loader: 'postcss-loader',
@@ -50,12 +47,10 @@ module.exports = (env, argv) => ({
                   ['autoprefixer'],
                 ],
               },
-              sourceMap: argv.mode === 'development',
             },
           }, {
             loader: 'sass-loader',
             options: {
-              sourceMap: argv.mode === 'development',
               implementation: require('sass'),
             },
           },
