@@ -1,40 +1,46 @@
 /* Page load animation */
 .home-once {
-    opacity: 0;
+  opacity: 0;
 }
+
 .home-once-active {
-    transition: all 1s linear 0.3s;
+  transition: all 1s linear 0.3s;
 }
+
 .home-once-to {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Slide to home */
 .home-leave {
-    transform: translateX(0);
+  transform: translateX(0);
 }
+
 .home-leave-active,
 .home-leave-active .content {
-    transition: all 0.7s var(--easing);
+  transition: all 0.7s var(--easing);
 }
-.home-leave-to .content {
 
-    transform: translateX(-50%);
+.home-leave-to .content {
+  transform: translateX(-50%);
 }
+
 .home-leave-to {
-    transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .home-enter {
-    transform: translateX(-100%);
+  transform: translateX(-100%);
 }
+
 .home-enter-active,
 .home-enter-active .content {
-    transition: all 0.7s var(--easing);
+  transition: all 0.7s var(--easing);
 }
+
 .home-enter-to {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
 }
