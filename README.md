@@ -1,11 +1,15 @@
 # Barbajs Demos
 A collection of demos explaining the most frequent use cases for [Barba.js](https://barba.js.org/).
 
+[All Demos Preview](https://ihatetomatoes.net/demos/barbajs/)
+
 ## Barba.js and CSS transitions
 
 ![Barba.js and CSS](/assets/img_barba-js-css.png)
 
 ![Barba.js and CSS Plugin](/assets/barba-css-demo.gif)
+
+[Live Preview](https://ihatetomatoes.net/demos/barbajs/barbajs-css-transition/)
 
 ## Barba.js and GreenSock
 
@@ -13,19 +17,27 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ![Barba.js and GreenSock](/assets/barba-with-gsap.gif)
 
+[Live Preview](https://ihatetomatoes.net/demos/barbajs/barbajs-gsap-transition/)
+
 ## Barba.js and Smooth ScrollBar
 
 ![Barba.js and Smooth ScrollBar](/assets/img_barba-js-gsap-smooth-scrollbar.png)
 
+[Live Preview](https://ihatetomatoes.net/demos/barbajs/barbajs-gsap-smooth-scrollbar/)
+
 ## Barba.js and Locomotive Scroll
 
 ![Barba.js and Smooth ScrollBar](/assets/img_barba-js-gsap-locomotive.png)
+
+[Live Preview](https://ihatetomatoes.net/demos/barbajs/barbajs-gsap-locomotive-scroll/)
 
 ## Barba.js and Images Loaded
 
 ![Barba.js and Images Loaded](/assets/img_barba-js-gsap-images-loaded.png)
 
 ![Barba.js and GreenSock](/assets/barba-with-imagesLoaded.gif)
+
+[Live Preview](https://ihatetomatoes.net/demos/barbajs/barbajs-gsap-imagesLoaded/)
 
 ## Roadmap
 

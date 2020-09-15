@@ -1,0 +1,25 @@
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px #3c3d3e solid;
+    background-color: #fff;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #3c3d3e;
+    z-index: 99;
+    &:hover {
+        background-color: #3c3d3e;
+        border-color: #3c3d3e;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-back {
+        top: auto;
+        bottom: 20px;
+    }
+}

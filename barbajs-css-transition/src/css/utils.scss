@@ -1,0 +1,17 @@
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px #fff solid;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: white;
+    z-index: 99;
+    &:hover {
+        background-color: #3c3d3e;
+        border-color: #3c3d3e;
+        color: #fff;
+    }
+}

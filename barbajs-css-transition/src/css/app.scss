@@ -4,6 +4,7 @@
 @import 'fade.scss';
 @import 'clip.scss';
 @import 'with-cover.scss';
+@import 'utils.scss';
 
 :root {
   --easing: cubic-bezier(0.5, 0.7, 0.4, 1);
@@ -31,7 +32,7 @@ h6 {
 header {
   --base-color: #fff;
 
-  width: calc(100% - 24vw);
+  width: calc(100% - 28vw);
   height: 100vh;
   color: var(--base-color);
   display: flex;
