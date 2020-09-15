@@ -1,4 +1,3 @@
-import '../css/app.scss';
 import barba from '@barba/core';
 import { fadeIn, fadeOut } from './animations';
 

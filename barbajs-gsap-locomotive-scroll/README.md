@@ -6,7 +6,7 @@ Simple JavaScript page transitions using [Barba.js](https://barba.js.org/) and [
 
 ## Build
 
-The webpack build and compilation is based on [barba-starter-template by Samuel Berisha.](https://github.com/mrsamse/barba-starter-template)
+The webpack build and compilation is based on [barba-starter-template by Samuel Berisha.](https://github.com/mrsamse/barba-starter-template), simplified and cleaned up by [Xavier Foucrier](https://github.com/xavierfoucrier).
 
 ## Usage
 
@@ -18,7 +18,7 @@ cd barbajs-gsap-locomotive-scroll
 npm install
 ```
 
-Watch for changes in your style & code files:
+Run a local web server and watch for changes in your style & code files:
 
 ```
 npm run dev

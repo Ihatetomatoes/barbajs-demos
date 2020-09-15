@@ -7,7 +7,7 @@ the [@barba/css](https://barba.js.org/docs/plugins/css/) plugin.
 
 ## Build
 
-The webpack build and compilation is based on [barba-starter-template by Samuel Berisha.](https://github.com/mrsamse/barba-starter-template)
+The webpack build and compilation is based on [barba-starter-template by Samuel Berisha.](https://github.com/mrsamse/barba-starter-template), simplified and cleaned up by [Xavier Foucrier](https://github.com/xavierfoucrier).
 
 ## Usage
 

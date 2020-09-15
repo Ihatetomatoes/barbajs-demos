@@ -1,8 +1,6 @@
-# Barba.js with GreenSock and Images Loaded
+# Barba.js Starter
 
-![Barba.js and Images Loaded](../assets/img_barba-js-gsap-images-loaded.png)
-
-Simple JavaScript page transitions using [Barba.js](https://barba.js.org/) and [GreenSock](https://greensock.com/?ref=7856eb) with [Images Loaded](https://imagesloaded.desandro.com/).
+Starting point for all the Barba.js demos in this repo.
 
 ## Build
 
@@ -14,7 +12,7 @@ Installation:
 
 ```
 git clone https://github.com/Ihatetomatoes/barbajs-demos.git
-cd barbajs-gsap-imagesLoaded
+cd barbajs-demo-starter
 npm install
 ```
 

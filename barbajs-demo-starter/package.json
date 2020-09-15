@@ -35,8 +35,7 @@
   },
   "dependencies": {
     "@barba/core": "^2.8.0",
-    "gsap": "^3.5.1",
-    "reset-css": "^5.0.1",
-    "imagesloaded": "^4.1.4"
+    "@barba/css": "^2.1.15",
+    "reset-css": "^5.0.1"
   }
 }

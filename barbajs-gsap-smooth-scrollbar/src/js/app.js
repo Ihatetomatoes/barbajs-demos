@@ -1,4 +1,3 @@
-import '../css/app.scss';
 import barba from '@barba/core';
 import Scrollbar from 'smooth-scrollbar';
 import { fadeIn, fadeOut } from './animations';
@@ -30,7 +29,6 @@ barba.init({
 
 // Smoooth Scrollbar
 function initSmoothScrollbar() {
-    console.log('initSmoothScrollbar');
     bodyScrollBar = Scrollbar.init(select('#viewport'), {damping: 0.07});
 
     // remove horizontal scrollbar
