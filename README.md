@@ -27,20 +27,20 @@ A collection of demos explaining the most frequent use cases for [Barba.js](http
 
 ![Barba.js and GreenSock](/assets/barba-with-imagesLoaded.gif)
 
-## WIP
+## Roadmap
 
-- CSS Demo - Done
-- Simple GSAP - Barba team to check the code
-- Smooth ScrollBar - Barba team to check the code
-- Locomotive Scroll - Barba team to check the code
-- ImagesLoaded - Barba team to check the code
-- With WordPress - TODO
+- [x] A Simple Starter
+- [x] CSS Transitions
+- [x] GSAP Transitions
+- [x] With Smooth ScrollBar
+- [x] With Locomotive Scroll
+- [x] With ImagesLoaded
+- [ ] With WordPress
 
 ## How to use
-The starting point of each demo is a cleaned up [barba-starter-template by Samuel Berisha](https://github.com/mrsamse/barba-starter-template).
+The starting point of each demo is a cleaned up [barba-starter-template by Samuel Berisha](https://github.com/mrsamse/barba-starter-template), simplified and cleaned up by [Xavier Foucrier](https://github.com/xavierfoucrier)
 
 1. Open demo folder in VSCode
 2. Install dependencies - `yarn install` or `npm install`
-3. To watch JS and CSS changes run `npm run dev`
+3. To run a local web server, watch JS and CSS changes run `npm run dev`
 4. To run production build run `npm run build`
-5. To preview in the browser use [VSCode LiveServer extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
