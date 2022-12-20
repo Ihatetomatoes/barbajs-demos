@@ -8,6 +8,10 @@
     "build": "webpack --mode production"
   },
   "license": "MIT",
+  "engines": {
+    "node": "^18",
+    "yarn": "^1"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
