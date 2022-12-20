@@ -24,7 +24,7 @@
     "postcss": "^7.0.32",
     "postcss-loader": "^4.0.1",
     "sass": "^1.23.6",
-    "sass-loader": "^10.0.2",
+    "sass-loader": "10.4.1",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "^20.0.0",
     "terser-webpack-plugin": "4.2.3",
