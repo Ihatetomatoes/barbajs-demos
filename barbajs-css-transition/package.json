@@ -23,7 +23,7 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "postcss": "^8.4.20",
     "postcss-loader": "^7.0.2",
-    "sass": "^1.23.6",
+    "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
     "stylelint": "^14.16.0",
     "stylelint-config-standard": "^29.0.0",
