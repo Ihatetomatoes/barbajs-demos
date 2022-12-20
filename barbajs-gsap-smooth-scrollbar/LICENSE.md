@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Petr Tichy
+Copyright (c) 2022 Petr Tichy, Xavier Foucrier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
