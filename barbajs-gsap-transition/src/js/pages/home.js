@@ -1,9 +1,9 @@
 class Home {
-	namespace = 'home';
+  namespace = 'home';
 
-	beforeEnter = data => {
-		console.log(data, 'on home page');
-	};
+  beforeEnter = data => {
+    console.log(data, 'on home page');
+  };
 }
 
 export default new Home();

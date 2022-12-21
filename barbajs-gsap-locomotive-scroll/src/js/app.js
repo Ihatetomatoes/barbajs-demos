@@ -5,32 +5,32 @@ import LocomotiveScroll from 'locomotive-scroll';
 let scroll;
 
 barba.hooks.after(() => {
-	scroll.update();
+  scroll.update();
 });
 
 barba.init({
-	debug: true,
-	transitions: [
-		{
-			name: 'general-transition',
-			once: ({ next }) => {
-				fadeIn(next.container);
-				smooth();
-			},
-			leave: ({ current }) => fadeOut(current.container),
-			enter: ({ next }) => {
-				fadeIn(next.container)
-			},
-			beforeEnter() {
-				scroll.setScroll(0,0);
-			}
-		}
-]
+  debug: true,
+  transitions: [
+    {
+      name: 'general-transition',
+      once: ({ next }) => {
+        fadeIn(next.container);
+        smooth();
+      },
+      leave: ({ current }) => fadeOut(current.container),
+      enter: ({ next }) => {
+        fadeIn(next.container);
+      },
+      beforeEnter() {
+        scroll.setScroll(0, 0);
+      },
+    },
+  ],
 });
 
 function smooth() {
-	scroll = new LocomotiveScroll({
-		el: document.querySelector('[data-scroll-container]'),
-		smooth: true
-	});
+  scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+  });
 }
